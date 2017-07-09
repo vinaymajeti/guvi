@@ -1,0 +1,287 @@
+1.import java.util.Scanner;
+public class Postive_Negative 
+{
+    public static void main(String[] args) 
+    {
+        int n;
+        Scanner s = new Scanner(System.in);
+        System.out.print("Enter the number you want to check:");
+        n = s.nextInt();
+        if(n > 0)
+        {
+            System.out.println("The given number "+n+" is Positive");
+        }
+        else if(n < 0)
+        {
+            System.out.println("The given number "+n+" is Negative");
+        }
+        else
+        {
+            System.out.println("The given number "+n+" is neither Positive nor Negative ");
+        }
+    }
+}
+
+
+
+2.import java.util.Scanner;
+ 
+class EvenOdd
+{
+  public static void main(String args[])
+  {
+    int c;
+    System.out.println("Input an integer");
+    Scanner in = new Scanner(System.in);
+    c = in.nextInt();
+ 
+    if ( (c/2)*2 == c )
+      System.out.println("Even");
+    else
+      System.out.println("Odd");
+  }
+}
+
+
+		
+3.import java.util.Scanner;
+
+public class JavaProgram
+{
+    public static void main(String args[])
+    {
+        char ch;
+        Scanner scan = new Scanner(System.in);
+		
+        System.out.print("Enter an Alphabet : ");
+        ch = scan.next().charAt(0);
+		
+        if(ch=='a' || ch=='A' || ch=='e' || ch=='E' ||
+        ch=='i' || ch=='I' || ch=='o' || ch=='O' ||
+        ch=='u' || ch=='U')
+        {
+            System.out.print("This is a Vowel");
+        }
+        else
+        {
+            System.out.print("This is not a Vowel");
+        }
+    }
+}
+
+
+4.import java.util.Scanner;
+
+public class JavaProgram
+{
+    public static void main(String args[])
+    {
+        char ch;
+        Scanner scan = new Scanner(System.in);
+		
+        System.out.print("Enter a Character : ");
+        ch = scan.next().charAt(0);
+		
+        if((ch>='a' && ch<='z') || (ch>='A' && ch<='Z'))
+        {
+            System.out.print(ch + " is an Alphabet");
+        }
+        else
+        {
+            System.out.print(ch + " is not an Alphabet");
+        }
+    }
+}
+
+5.import java.util.Scanner;
+public class Largest_Ternary 
+{
+    public static void main(String[] args) 
+    {
+        int a, b, c, d;
+        Scanner s = new Scanner(System.in);
+        System.out.println("Enter all three numbers:");
+        a = s.nextInt();
+        b = s.nextInt();
+        c = s.nextInt();
+        d = c > (a > b ? a : b) ? c : ((a > b) ? a : b);
+        System.out.println("Largest Number:"+d);
+    }
+}
+
+6.import java.util.Scanner;
+
+public class JavaProgram
+{
+    public static void main(String args[])
+    {
+       int yr;
+       Scanner scan = new Scanner(System.in);
+	   
+       System.out.print("Enter Year : ");
+       yr = scan.nextInt();
+	   
+       if((yr%4 == 0) && (yr%100!=0))
+       {
+           System.out.print("This is a Leap Year");
+       }
+       else if(yr%100 == 0)
+       {
+           System.out.print("This is not a Leap Year");
+       }
+       else if(yr%400 == 0)
+       {
+           System.out.print("This is a Leap Year");
+       }
+       else
+       {
+           System.out.print("This is not a Leap Year");
+       }
+    }
+}
+
+
+7.import java.util.Scanner;
+
+public class HelloWorld {
+	public static void main(String[] args) {
+		System.out.println("Hello");
+		System.out.println("Hello");
+		System.out.println("Hello");
+		System.out.println("Hello");
+		System.out.println("hello");
+		
+	}
+}
+
+7..import java.util.Scanner;
+
+public class hello {
+        public static void main(string[] args) {
+                
+		System.out.println("Hello");
+                int n=5;
+                while(n<=5)
+              {
+                system.out.println("hello");  
+              }
+                else
+              {
+                break
+              }
+
+
+
+
+
+8.import java.util.Scanner;
+class Numofdigit 
+{
+public static void main(String[] args) 
+{
+ int no,a=0;
+ Scanner s=new Scanner(System.in);
+System.out.println("Enter any number : ");
+ no = s.nextInt();
+
+if(no<0)
+{
+no=no * -1;
+}
+else if(no==0)
+{
+no=1;
+}
+while(no>0)
+{
+no=no/10;
+a++;
+}
+System.out.println("Number of Digits in given number is: "+a);
+}
+}
+
+   9.int sum = 0; 
+int i = 0;       // i is 0 Here
+
+    while (i<100) {
+
+      sum += i; 
+      i++;
+
+    }
+
+  System.out.println("The sum is " + sum);
+do-While :
+
+int sum = 0; 
+int i = 0;      // i is 0 Here
+
+    do{ 
+
+      sum += i; 
+       i++
+    }while(i < 100; );
+
+     System.out.println("The sum is " + sum);
+
+10.public class Natural 
+{
+    public static void main(String args[])
+    {
+        int x, i = 1 ;
+        int sum = 0;
+        System.out.println("Enter Number of items :");
+        Scanner s = new Scanner(System.in);
+        x = s.nextInt();
+        while(i <= x)
+        {
+            sum = sum +i;
+            i++;
+        }
+        System.out.println("Sum of "+x+" numbers is :"+sum);
+    } 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
